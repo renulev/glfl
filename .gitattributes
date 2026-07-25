@@ -1,0 +1,15 @@
+* text=auto
+
+# Source
+Makefile text diff=makefile
+GNUmakefile text diff=makefile
+BSDmakefile text diff=makefile
+*.mk text diff=makefile
+*.c text diff=c
+*.h text diff=c
+*.cpp text diff=cpp
+*.hpp text diff=cpp
+
+# Docs
+*.txt text
+*.md text

@@ -1,0 +1,6 @@
+*.o
+*.d
+*.exe
+*.out
+*.tmp
+*.bak
