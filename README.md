@@ -458,8 +458,6 @@ Include `glfl.h` in your C/C++ project before any OpenGL function calls or libra
 ```c
 #define GLFL_IMPLEMENTATION
 #include <glfl.h>
-#define GLFW_INCLUDE_NONE
-#include <GLFW/glfw3.h>
 ```
 ---
 ## API Reference
