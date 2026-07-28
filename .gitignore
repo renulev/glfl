@@ -3,4 +3,6 @@
 *.exe
 *.out
 *.tmp
+*.temp
+*.log
 *.bak

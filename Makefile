@@ -35,8 +35,8 @@ $(GENERATOR_TARGET): generator.c
 
 sample: $(SAMPLE_TARGET)
 
-SAMPLE_CFLAGS += -I. $(shell pkg-config --cflags glfw3 2>/dev/null)
-SAMPLE_LDFLAGS += $(shell pkg-config --libs glfw3 2>/dev/null)
+SAMPLE_CFLAGS += $(shell pkg-config --cflags glfw3) -I.
+SAMPLE_LDFLAGS += $(shell pkg-config --libs glfw3)
 ifeq ($(OS),Windows_NT)
 SAMPLE_LDFLAGS += -lopengl32
 else

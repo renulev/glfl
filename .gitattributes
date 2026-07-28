@@ -1,7 +1,7 @@
 * text=auto
 
 # Source
-Makefile text diff=makefile
+[Mm]akefile text diff=makefile
 GNUmakefile text diff=makefile
 BSDmakefile text diff=makefile
 *.mk text diff=makefile
