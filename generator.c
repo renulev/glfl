@@ -56,7 +56,15 @@ void str_vec_free(StrVec* pVector) {
 }
 
 int main(void) {
-	FILE* pTemplate = fopen("template0.h", "rb");
+	FILE* pTemplate = fopen("khronos-mit.h", "rb");
+	if (pTemplate != NULL) {
+		int ch;
+		while ((ch = fgetc(pTemplate)) != EOF) {
+			fputc(ch, stdout);
+		}
+		fclose(pTemplate);
+	}
+	pTemplate = fopen("template0.h", "rb");
 	if (pTemplate != NULL) {
 		int ch;
 		while ((ch = fgetc(pTemplate)) != EOF) {
