@@ -56,7 +56,7 @@ void str_vec_free(StrVec* pVector) {
 }
 
 int main(void) {
-	FILE* pTemplate = fopen("header.template.h", "rb");
+	FILE* pTemplate = fopen("template0.h", "rb");
 	if (pTemplate != NULL) {
 		int ch;
 		while ((ch = fgetc(pTemplate)) != EOF) {
@@ -99,7 +99,7 @@ int main(void) {
 	}
 	fclose(pGLHeaderFile);
 
-	pTemplate = fopen("loader0.template.h", "rb");
+	pTemplate = fopen("template1.h", "rb");
 	if (pTemplate != NULL) {
 		int ch;
 		while ((ch = fgetc(pTemplate)) != EOF) {
@@ -116,7 +116,7 @@ int main(void) {
 			vecNames.pData[i]);
 	}
 
-	pTemplate = fopen("loader1.template.h", "rb");
+	pTemplate = fopen("template2.h", "rb");
 	if (pTemplate != NULL) {
 		int ch;
 		while ((ch = fgetc(pTemplate)) != EOF) {
