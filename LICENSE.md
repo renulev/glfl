@@ -1,6 +1,6 @@
 # GLFL License Overview
 
-Source code files (excluding `template0.h`, `template1.h`, and `template0.h`) are governed by their own individual licenses. **Please refer to the top header comment of each source file for its specific copyright and license terms.**
+Source code files (excluding `template0.h`, `template1.h`, and `template2.h`) are governed by their own individual licenses. **Please refer to the top header comment of each source file for its specific copyright and license terms.**
 
 `template0.h`, `template1.h`, and `template0.h` are hereby licensed under the Unlicense license:
 ```
